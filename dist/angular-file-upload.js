@@ -173,18 +173,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var _angular = angular;
-	var copy = _angular.copy;
-	var extend = _angular.extend;
-	var forEach = _angular.forEach;
-	var isObject = _angular.isObject;
-	var isNumber = _angular.isNumber;
-	var isDefined = _angular.isDefined;
-	var isArray = _angular.isArray;
-	var element = _angular.element;
+	var _angular = angular,
+	    copy = _angular.copy,
+	    extend = _angular.extend,
+	    forEach = _angular.forEach,
+	    isObject = _angular.isObject,
+	    isNumber = _angular.isNumber,
+	    isDefined = _angular.isDefined,
+	    isArray = _angular.isArray,
+	    element = _angular.element;
 	function __identity(fileUploaderOptions, $rootScope, $http, $window, $timeout, FileLikeObject, FileItem) {
-	    var File = $window.File;
-	    var FormData = $window.FormData;
+	    var File = $window.File,
+	        FormData = $window.FormData;
 	
 	    var FileUploader = function () {
 	        /**********************
@@ -195,7 +195,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	         * @param {Object} [options]
 	         * @constructor
 	         */
-	
 	        function FileUploader(options) {
 	            _classCallCheck(this, FileUploader);
 	
@@ -1052,10 +1051,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var _angular = angular;
-	var copy = _angular.copy;
-	var isElement = _angular.isElement;
-	var isString = _angular.isString;
+	var _angular = angular,
+	    copy = _angular.copy,
+	    isElement = _angular.isElement,
+	    isString = _angular.isString;
 	function __identity() {
 	
 	    return function () {
@@ -1064,7 +1063,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	         * @param {File|HTMLInputElement|Object} fileOrInput
 	         * @constructor
 	         */
-	
 	        function FileLikeObject(fileOrInput) {
 	            _classCallCheck(this, FileLikeObject);
 	
@@ -1124,11 +1122,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var _angular = angular;
-	var copy = _angular.copy;
-	var extend = _angular.extend;
-	var element = _angular.element;
-	var isElement = _angular.isElement;
+	var _angular = angular,
+	    copy = _angular.copy,
+	    extend = _angular.extend,
+	    element = _angular.element,
+	    isElement = _angular.isElement;
 	function __identity($compile, FileLikeObject) {
 	
 	    return function () {
@@ -1139,7 +1137,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	         * @param {Object} options
 	         * @constructor
 	         */
-	
 	        function FileItem(uploader, some, options) {
 	            _classCallCheck(this, FileItem);
 	
@@ -1418,8 +1415,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	var _angular = angular;
-	var extend = _angular.extend;
+	var _angular = angular,
+	    extend = _angular.extend;
 	function __identity() {
 	    var FileDirective = function () {
 	        /**
@@ -1431,7 +1428,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	         * @param {String} options.prop
 	         * @constructor
 	         */
-	
 	        function FileDirective(options) {
 	            _classCallCheck(this, FileDirective);
 	
@@ -1522,8 +1518,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var _angular = angular;
-	var extend = _angular.extend;
+	var _angular = angular,
+	    extend = _angular.extend;
 	function __identity($compile, FileDirective) {
 	
 	    return function (_FileDirective) {
@@ -1534,7 +1530,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	         * @param {Object} options
 	         * @constructor
 	         */
-	
 	        function FileSelect(options) {
 	            _classCallCheck(this, FileSelect);
 	
@@ -1626,9 +1621,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var _angular = angular;
-	var extend = _angular.extend;
-	var forEach = _angular.forEach;
+	var _angular = angular,
+	    extend = _angular.extend,
+	    forEach = _angular.forEach;
 	function __identity(FileDirective) {
 	
 	    return function (_FileDirective) {
@@ -1639,7 +1634,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	         * @param {Object} options
 	         * @constructor
 	         */
-	
 	        function FileDrop(options) {
 	            _classCallCheck(this, FileDrop);
 	
@@ -1786,8 +1780,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var _angular = angular;
-	var extend = _angular.extend;
+	var _angular = angular,
+	    extend = _angular.extend;
 	function __identity(FileDirective) {
 	
 	    return function (_FileDirective) {
@@ -1798,7 +1792,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	         * @param {Object} options
 	         * @constructor
 	         */
-	
 	        function FileOver(options) {
 	            _classCallCheck(this, FileOver);
 	
